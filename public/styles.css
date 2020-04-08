@@ -8,6 +8,22 @@ body {
     box-sizing: border-box;
   }
   
+  .header {
+    position: fixed;
+    max-width: 550px;
+    margin-left: 230px;
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+  a:link {
+    color:inherit;
+    text-decoration: underline;
+  }
+
+  .plinks a{
+    line-height: 1.8;
+  }
+
   .sidenav {
     height: 100%;
     max-width: 230px;
@@ -40,6 +56,7 @@ body {
     height: 100%;
     max-width: 550px;
     margin-left: 230px;
+    margin-top: 180px;
     position: fixed;
     padding-right: 15px;
     padding-left: 10px;
@@ -56,11 +73,6 @@ body {
     width: 100%;
     height: auto;
   } 
-
-  a:link {
-    color:inherit;
-    text-decoration: none;
-  }
  
   a, a:visited{ 
     color: black;
@@ -76,6 +88,8 @@ body {
   @media screen and (max-width: 650px) {
     .sidenav {width: 140px}
     .content {margin-left: 140px; padding-left: 3px;}
+    .acontent {margin-left: 140px; padding-left: 3px;}
+    .header {margin-left: 140px; padding-left: 3px;}
     .sidenav p {padding-left: 3px;}
     .sidenav h3 {padding-left: 3px;} 
     .sidenav a {padding-left: 3px;} 
