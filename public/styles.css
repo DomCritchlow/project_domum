@@ -1,7 +1,6 @@
 body {
     height:100%; 
     font-family: 'Courier', Courier, monospace; 
-    overflow: hidden; 
     }
 
 * {
@@ -9,7 +8,6 @@ body {
   }
   
   .header {
-    position: fixed;
     max-width: 550px;
     margin-left: 230px;
     padding-right: 15px;
@@ -25,9 +23,9 @@ body {
   }
 
   .sidenav {
+    position: fixed;
     height: 100%;
     max-width: 230px;
-    position: fixed;
     top: 0;
     left: 0;
     overflow-x: hidden;
@@ -53,15 +51,14 @@ body {
   }
 
   .content {
-    height: 100%;
     max-width: 550px;
     margin-left: 230px;
-    margin-top: 180px;
-    position: fixed;
     padding-right: 15px;
     padding-left: 10px;
-    overflow-x: hidden;
+    overflow-x: hidden; 
+    position: relative;
   }
+  
 
   .update-date {
     display: block;
@@ -72,6 +69,7 @@ body {
     padding: 5px;
     width: 100%;
     height: auto;
+    border: 1px solid black;
   } 
  
   a, a:visited{ 
