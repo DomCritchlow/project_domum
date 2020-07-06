@@ -6,7 +6,6 @@ body {
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: 'Courier', Courier, monospace; 
   /*font-family: 'Share Tech Mono', monospace;*/
   font-family: 'Cutive Mono', monospace;
   }
@@ -75,6 +74,7 @@ a{
   img {
     opacity: .75;
     transition: opacity .5s ease-in-out;
+    border: lightgray;
   }
   img:hover {
     opacity: 1;
